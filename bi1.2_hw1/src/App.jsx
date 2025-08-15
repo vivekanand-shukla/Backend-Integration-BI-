@@ -1,13 +1,15 @@
-import Hetel from "./Components/Hetel"
-import HtoelByTitle from "./Components/HtoelByTitle"
+  import BookTitle from './componenets/bookTitle'
+  import BookDetail from './componenets/BookDetail'
+  import  BookAuther from './componenets/BookAuther'
+  import AddBookForm from './componenets/AddBookForm'
 function App() {
-
 
   return (
     <>
-      <Hetel/>
-      <HtoelByTitle name="New Hotel"/>
-       
+    <AddBookForm/>
+    <BookTitle/>
+    <BookDetail title="Lean In"/>
+    <BookAuther author="Sheryl Sandberg"/>
     </>
   )
 }
